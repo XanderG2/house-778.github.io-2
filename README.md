@@ -1,10 +1,10 @@
 # house-778.github.io
 An Unblock game website
-https://house-778.github.io
+[Click here](https://house-778.github.io)
 
 | Version | Available          | Changes                   |
 | ------- | ------------------ | ------------------------- |
-|  7      | :white_check_mark: | New background            |
+|  7      | :white_check_mark: |[New background](https://house-778.github.io)          |
 |  6pro   | :x:                | New login system          |
 |  6      | :x:                | Bug fix                   |
 |  5      | :x:                | security update           |
