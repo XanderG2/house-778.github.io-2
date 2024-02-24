@@ -1,6 +1,6 @@
 # house-778.github.io
 An Unblock game website
-<br><a src ="https://house-778.github.io">Click here</a>
+https://house-778.github.io
 
 | Version | Available          | Changes                   |
 | ------- | ------------------ | ------------------------- |
