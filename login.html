@@ -35,7 +35,7 @@
   </div>  
   <script src="login.js"></script>
   <script>
-  if (window.innerWidth <= 768) {
+  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     window.location.href = "mobillog.html";
   }
   </script>
