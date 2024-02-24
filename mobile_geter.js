@@ -1,2 +1,3 @@
-    if (window.innerWidth <= 1050) {
-      window.location.href = 'mobillog.html';
+if (window.innerWidth <= 768) {
+  cwindow.location.href = "mobillog.html";
+}
