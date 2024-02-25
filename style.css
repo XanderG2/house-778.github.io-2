@@ -20,11 +20,18 @@ body {
     background-position: 0% 50%;
   }
 }
-.game_button{
+$button-count: 500;
+
+.game_button {
     opacity: 0;
     transform: translateY(50px);
-    animation: fadeInUp 1s ease-in-out forwards;
     transition: background-color 0.3s ease-in-out;
+
+    @for $i from 1 through $button-count {
+        &:nth-child(#{$i}) {
+            animation: fadeInUp 1s ease-in-out #{0.5s * $i} forwards;
+        }
+    }
 }
 
 @keyframes fadeInUp {
@@ -37,6 +44,7 @@ body {
         transform: translateY(0);
     }
 }
+
 button{
   background-color: #000000;
   border: 1px solid #555555;
