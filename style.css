@@ -83,6 +83,9 @@ h1{
 .hiden {
   display: none;
 }
+.hidden {
+  display: none;
+}
 
 .fit{
   width: fit-content;
