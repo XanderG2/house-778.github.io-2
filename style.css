@@ -21,7 +21,6 @@ body {
   }
 }
 .game_button{
-    display: None;
     opacity: 0;
     transform: translateY(50px);
     animation: fadeInUp 1s ease-in-out forwards;
