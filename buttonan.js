@@ -7,5 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
   const buttons = document.querySelectorAll('.game_button');
   buttons.forEach((button, index) => {
-  button.style.animationDelay = `${0.1 * (index + 1)}s`;
+  button.style.animationDelay = `${0.01 * (index + 1)}s`;
   button.classList.add('hidden');
+  });
+});
